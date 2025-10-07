@@ -22,8 +22,8 @@ jobs:
 
       - name: Run Tests
         run: npm run test -- --coverage
-  Style:
-    name: Formatte
+  style:
+    name: Style
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
@@ -39,5 +39,5 @@ jobs:
       - name: Formatter write
         run: npm run format:write
 
-      - name: Style job
+      - name: Formatter check
         run: npm run format:check
