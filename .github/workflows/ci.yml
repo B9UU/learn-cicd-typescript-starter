@@ -26,6 +26,9 @@ jobs:
     name: Formatte
     runs-on: ubuntu-latest
     steps:
+      - name: Install dependecies
+        run: npm ci
+
       - name: Formatter write
         run: npm run format:write
 
