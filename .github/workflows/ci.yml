@@ -39,5 +39,5 @@ jobs:
       - name: Formatter write
         run: npm run format:write
 
-      - name: Formatter check
+      - name: Style job
         run: npm run format:check
