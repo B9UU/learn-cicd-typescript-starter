@@ -22,7 +22,7 @@ jobs:
 
       - name: Run Tests
         run: npm run test -- --coverage
-  style:
+  Style:
     name: Formatte
     runs-on: ubuntu-latest
     steps:
